@@ -37,10 +37,17 @@
                 ],
                 page: {
                     menu: [
+                                                {
+                            type: 'icon',
+                            icon: 'search',
+                            href: 'https://search.yunser.com?utm_source=geography',
+                            target: '_blank',
+                            title: '应用搜索'
+                        },
                         {
                             type: 'icon',
                             icon: 'apps',
-                            href: 'https://app.yunser.com/',
+                            href: 'https://app.yunser.com?utm_source=geography',
                             target: '_blank',
                             title: '应用'
                         }
